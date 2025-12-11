@@ -1,50 +1,34 @@
-/* GLOBAL PAGE STYLING */
-body {
-    background-color: #000000;      /* black */
-    color: #E0E0E0;                 /* light gray for readability */
-    font-family: "Helvetica", "Arial", sans-serif;
-    margin: 40px auto;
-    max-width: 900px;               /* clean centered layout */
-    line-height: 1.6;
-}
-
-/* HEADERS — 6 Train Green */
-h1, h2 {
-    color: #00933C;                 /* 6 train green */
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-/* LINKS */
-a {
-    color: #00933C;
-    font-weight: bold;
-}
-
-/* SECTION SPACING */
-section {
-    margin-top: 30px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #1a1a1a;
-}
-
-/* IMAGES */
-img {
-    max-width: 100%;
-    border: 3px solid #00933C;      /* 6 train border */
-    border-radius: 6px;
-}
-
-/* OPTIONAL TITLE STYLE LIKE MTA SIGNAGE */
-h1 {
+/* GREEN LINE NEXT TO TITLE */
+.title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     font-size: 42px;
+    font-weight: 700;
     text-transform: uppercase;
-    border-left: 10px solid #00933C;
-    padding-left: 15px;
 }
 
-/* Subheaders */
-h2 {
-    font-size: 26px;
-    margin-bottom: 10px;
+.line {
+    width: 10px;
+    height: 50px;
+    background-color: #00933C; /* 6 Train Green */
+    display: inline-block;
+    border-radius: 4px;
+}
+
+/* 6 TRAIN ICON */
+.train-icon {
+    width: 55px;
+    height: 55px;
+    background-color: #00933C;     /* 6 Train green */
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Helvetica", "Arial", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;             /* circle */
+    border: 3px solid #00933C;
+    box-shadow: 0 0 10px #00933C;
 }
