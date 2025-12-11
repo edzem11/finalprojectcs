@@ -1,0 +1,28 @@
+/* Entire page background */
+body {
+    background-color: #000000;   /* black */
+    color: #00ff00;              /* green text */
+    font-family: "Courier New", monospace; /* hacker-style font */
+    margin: 20px;
+}
+
+/* Headings styling */
+h1, h2 {
+    color: #00ff00;    /* green */
+}
+
+/* Links styling */
+a {
+    color: #00ff00;
+    text-decoration: underline;
+}
+
+/* Optional: make lists green too */
+ul li {
+    color: #00ff00;
+}
+
+/* Images: add green border (optional) */
+img {
+    border: 2px solid #00ff00;
+}
