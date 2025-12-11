@@ -1,28 +1,50 @@
-/* Entire page background */
+/* GLOBAL PAGE STYLING */
 body {
-    background-color: #000000;   /* black */
-    color: #00ff00;              /* green text */
-    font-family: "Helvetica", monospace; /* hacker-style font */
-    margin: 20px;
+    background-color: #000000;      /* black */
+    color: #E0E0E0;                 /* light gray for readability */
+    font-family: "Helvetica", "Arial", sans-serif;
+    margin: 40px auto;
+    max-width: 900px;               /* clean centered layout */
+    line-height: 1.6;
 }
 
-/* Headings styling */
+/* HEADERS — 6 Train Green */
 h1, h2 {
-    color: #00ff00;    /* green */
+    color: #00933C;                 /* 6 train green */
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
-/* Links styling */
+/* LINKS */
 a {
-    color: #00ff00;
-    text-decoration: underline;
+    color: #00933C;
+    font-weight: bold;
 }
 
-/* Optional: make lists green too */
-ul li {
-    color: #00ff00;
+/* SECTION SPACING */
+section {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #1a1a1a;
 }
 
-/* Images: add green border (optional) */
+/* IMAGES */
 img {
-    border: 2px solid #00ff00;
+    max-width: 100%;
+    border: 3px solid #00933C;      /* 6 train border */
+    border-radius: 6px;
+}
+
+/* OPTIONAL TITLE STYLE LIKE MTA SIGNAGE */
+h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+    border-left: 10px solid #00933C;
+    padding-left: 15px;
+}
+
+/* Subheaders */
+h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
 }
