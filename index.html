@@ -4,34 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>6 TRAIN</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Load CSS with cache busting -->
+    <link rel="stylesheet" href="style.css?v=1">
 </head>
+
 <body>
-    <h1>CS FINAL DATA ANALYSIS</h1>
+
+    <!-- Title Section -->
+    <h1 class="title">
+        <span class="line"></span>
+        <span class="train-icon">6</span>
+        CS FINAL DATA ANALYSIS
+    </h1>
+
     <p>Welcome to my project website!</p>
 
+    <!-- About Section -->
     <section>
         <h2>About the Project</h2>
         <p>Detailed analysis and graphs of NYC 6 Train stations</p>
     </section>
-<section>
-    <h2>Walk Score vs Population</h2>
-    <img src="images/walkscorepopulationgraph.png" 
-         alt="Walk Score vs Population Graph" width="800">
-</section>
 
-<section>
-    <h2>Walk Score vs Median Income</h2>
-    <img src="images/walkscoreincomegraph.png" 
-         alt="Walk Score vs Median Income Graph" width="800">
-</section>
+    <!-- Walk Score vs Population -->
+    <section>
+        <h2>Walk Score vs Population</h2>
+        <img src="images/walkscorepopulationgraph.png?v=1"
+             alt="Walk Score vs Population Graph"
+             width="800">
+    </section>
 
-<section>
-    <h2>ZIP Code vs Walk Score</h2>
-    <img src="images/zipvswalkscore.png" 
-         alt="ZIP Code vs Walk Score Graph" width="800">
-</section>
+    <!-- Walk Score vs Income -->
+    <section>
+        <h2>Walk Score vs Median Income</h2>
+        <img src="images/walkscoreincomegraph.png?v=1"
+             alt="Walk Score vs Median Income Graph"
+             width="800">
+    </section>
 
+    <!-- ZIP Code vs Walk Score -->
+    <section>
+        <h2>ZIP Code vs Walk Score</h2>
+        <img src="images/zipvswalkscore.png?v=1"
+             alt="ZIP Code vs Walk Score Graph"
+             width="800">
+    </section>
 
 </body>
 </html>
